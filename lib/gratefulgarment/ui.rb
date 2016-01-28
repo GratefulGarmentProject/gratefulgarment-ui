@@ -1,7 +1,6 @@
-require "gratefulgarment/ui/version"
-
-module Gratefulgarment
-  module Ui
-    # Your code goes here...
+module GratefulGarment
+  module UI
+    autoload :Engine,  "gratefulgarment/ui/engine"
+    autoload :VERSION, "gratefulgarment/ui/version"
   end
 end

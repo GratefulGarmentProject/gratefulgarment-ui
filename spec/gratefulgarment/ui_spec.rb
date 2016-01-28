@@ -1,8 +1,8 @@
 require "spec_helper"
 
-describe Gratefulgarment::Ui do
+describe GratefulGarment::UI do
   it "has a version number" do
-    expect(Gratefulgarment::Ui::VERSION).not_to be nil
+    expect(GratefulGarment::UI::VERSION).not_to be nil
   end
 
   it "does something useful" do
