@@ -1,0 +1,22 @@
+AllCops:
+  Exclude:
+    - tmp/**/*
+  DisplayCopNames: true
+
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Rails:
+  Enabled: true
+
+Style/SignalException:
+  EnforcedStyle: only_raise
+
+Style/SpaceInsideBlockBraces:
+  EnforcedStyleForEmptyBraces: space
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
