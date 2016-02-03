@@ -18,22 +18,22 @@ div.body {
 
 /* User Login */
 .login_box {
-  background-color: #A2B6D7; 
+  background-color: #A2B6D7;
   color: #ffffff;
   margin-top: 25px;
 }
 
-/* Navigation Tabs and Filters */
+/* Navigation Bar and Filters */
 
-.nav-tabs > li.active > a, 
-.nav-tabs > li.active > a:hover, 
-.nav-tabs > li.active > a:focus {
+.nav-bar > li.active > a,
+.nav-bar > li.active > a:hover,
+.nav-bar > li.active > a:focus {
   background-color: #6a81a9;
   color: #ffffff;
   font-weight: bold;
 }
 
-.nav-tabs > li > a {
+.nav-bar > li > a {
   background-color: #e9ecf1;
   color: #6a81a9;
 }
