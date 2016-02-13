@@ -21,22 +21,22 @@ div.body {
 
 /* Navigation Bar */
 
-.navbar-nav > li.active > a,
-.navbar-nav > li.active > a:hover,
-.navbar-nav > li.active > a:focus {
-  background-color: #6a81a9 !important;
-  color: #ffffff !important;
-  font-weight: bold !important;
+nav.navbar > ul.navbar-nav > li.active > a,
+nav.navbar > ul.navbar-nav > li.active > a:hover,
+nav.navbar > ul.navbar-nav > li.active > a:focus {
+  background-color: #6a81a9;
+  color: #ffffff;
+  font-weight: bold;
 }
 
-.navbar-nav > li > a {
-  background-color: #e9ecf1 !important;
-  color: #6a81a9 !important;
+nav.navbar > ul.navbar-nav > li > a {
+  background-color: #e9ecf1;
+  color: #6a81a9;
 }
 
-.navbar > div {
-  background-color: #e9ecf1 !important;
-  color: #6a81a9 !important;
+nav.navbar > ul.navbar > div {
+  background-color: #e9ecf1;
+  color: #6a81a9;
 }
 
 /* Table Styles */
@@ -69,10 +69,10 @@ table {
 
 /* Category Nav styling */
 
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-  background-color:#6a81a9;
+#category_nav.nav-pills > li.active > a,
+#category_nav.nav-pills > li.active > a:hover,
+#category_nav.nav-pills > li.active > a:focus {
+  background-color: #6a81a9;
   border: #6a81a9;
 }
 
