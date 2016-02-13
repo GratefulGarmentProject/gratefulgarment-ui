@@ -73,6 +73,16 @@ table {
 }
 
 
+/* Category Nav styling */
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focusli.active {
+  background-color:#6a81a9;
+  border: #6a81a9;
+}
+
+
 /* Mobile Styles */
 
 @media screen and (max-width: 767px) {
