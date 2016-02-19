@@ -55,13 +55,15 @@ table {
   }
 }
 
-  .table-striped > tbody > tr:nth-of-type(odd) {
-    background-color: #ffffff;
-  }
+.table-manual-striped > tbody > tr.odd-row,
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}
 
-    .table-striped > tbody > tr:nth-of-type(even) {
-    background-color: #e9ecf1;
-  }
+.table-manual-striped > tbody > tr.even-row,
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #e9ecf1;
+}
 
 
 .order_table {
