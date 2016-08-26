@@ -84,6 +84,10 @@ table {
   margin-bottom: 10px;
 }
 
+table.users-table tr.additional-organization-row td {
+  border-top: none;
+}
+
 /* Category Nav Styles */
 #category_nav.nav-pills > li.active > a,
 #category_nav.nav-pills > li.active > a:hover,
@@ -92,14 +96,12 @@ table {
   border: #6a81a9;
 }
 
-
 /* Mobile Styles */
 @media screen and (max-width: 767px) {
   .order-status-filter {
     margin: 10px 0 0;
   }
 }
-
 
 /* Button Styles */
 .button-height {
